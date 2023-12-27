@@ -1,0 +1,37 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Orbit-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/Orbit-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.clear_fix::before,
+.clear_fix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+body{
+    font-family: 'Orbit-Regular';
+    font-size: 14px;
+    color: #444;
+}
+table{
+    border-collapse: collapse;
+}
+img{
+    vertical-align: middle;
+}
